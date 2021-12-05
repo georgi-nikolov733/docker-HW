@@ -1,3 +1,3 @@
-FROM node:1.20-alpine
+FROM alpine:3.14
 WORKDIR /app
 COPY index.html /app
