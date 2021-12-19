@@ -1,3 +1,3 @@
-FROM alpine:3.14
+FROM nginx:1.20-alpine 
 WORKDIR /app
 COPY index.html /app
